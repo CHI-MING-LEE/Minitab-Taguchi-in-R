@@ -1,0 +1,20 @@
+.modal-dialog {
+  min-height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: auto;
+  @media(max-width: 768px) {
+    min-height: calc(100vh - 20px);
+  }
+}
+.modal-title{
+  text-align:center;
+}
+
+div.box-header {
+  text-align: center;
+}
+#type_of_design {font-size:17px}
+
+
